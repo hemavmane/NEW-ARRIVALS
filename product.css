@@ -50,10 +50,35 @@
   .price {
     margin: 5px;
   }
-  .name {
-    font-weight: bold;
+  
+  @media screen and (min-width:500px){
+    p.brand,.price,.name{
+      font-size:20px;
+    }
   }
-  .price {
-    font-size: 20px;
-    font-weight: bold;
+
+  @media screen and (max-width:500px){
+    p.brand,.price,.name{
+      font-size: 5px;
+    }
   }
+
+  
+
+  @media screen and (min-width:500px){
+    button.crousel_btn1,button.crousel_btn2{
+      font-size:25px;
+    }
+  }
+
+  @media screen and (max-width:1300px){
+   button.crousel_btn1,button.crousel_btn2{
+      font-size: 10px;
+    }
+  }
+
+
+
+
+
+
